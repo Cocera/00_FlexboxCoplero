@@ -18,10 +18,10 @@ main {
     display: flex;
     justify-content: center;
     flex-direction: column;
-    margin: 20% 30%;
+    padding: 10% 20%;
 }
 
-article {
+section {
     background-color: var(--white);
     display: flex;
     flex-direction: row;
@@ -29,10 +29,11 @@ article {
     align-items: center;
     padding: 5%;
     box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    
+    max-width: 700px;
+    min-width: 400px;    
 }
 
-div {
+article {
     margin-right: 10%;
 }
 
